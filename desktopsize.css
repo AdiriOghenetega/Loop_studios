@@ -1,0 +1,296 @@
+@media  screen and (max-width: 1290px) and (min-width: 1201px) {
+    
+    button:hover{
+        background-color: rgb(247,76,234);
+        color: rgb(247,76,234); 
+    }
+    a:hover{
+        background-color: rgb(247,76,234);
+        color: white;
+    }
+    header{
+        background-image: url(./images/desktop/image-hero.jpg);
+        height: 30em;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .firstsection{
+        padding-top: 3em;
+        padding-left: 8em;
+    }
+    .headernavdetails a{
+        text-decoration: none;
+        color: white;
+        font-family: 'Alata', sans-serif;
+    }
+    .hamburger_navdetails{
+        display: flex;
+        position: relative;
+        right: -28em;
+        word-spacing: 1.5em;
+    }
+    .logo_navdetails{
+        display: flex;
+    }
+    .hamburgerbutton button{
+        background-blend-mode: inherit;
+        display: none;
+    }
+    .hamburgerbutton{
+        position: absolute;
+        right: 7em;
+        display: none;
+    }
+    .Headernote{
+        font-family: 'Josefin Sans', sans-serif;
+        position: relative;
+        margin-top: 2em;
+        font-size: xx-large;
+        color: white;
+        border: 0.09em solid white;
+        padding-left: 2em;
+        width: 14em;
+        font-weight: none;
+        word-spacing: 0.2em;
+    }
+    .secondsection{
+        display: flex;
+        position: relative;
+        padding: 10em;
+    }
+    main{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .vr_image{
+        z-index: 1;
+        width: 30em;
+    }
+    .vr_info{
+        z-index: 2;
+        width: 40em;
+        height: 18em;
+        
+        position: relative;
+        top: 11.3em;
+        right: -5em;
+        background-color: white;
+        padding: 5.5em 0.1em 1em 5em;
+        text-align: left;
+    }
+    .vr_info h1{
+        font-size: xx-large;
+        
+        position: relative;
+        padding-left: 1em;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .vr_info p{
+        
+        width: 25em;
+        position: relative;
+        padding-left: 2.2em;
+        line-height: 1.6;
+        font-family: 'Alata', sans-serif;
+        font-size: small;
+    }
+    .thirdsection{
+        padding: 0em 1em 1em 10em;
+        
+    }
+    .h1_button{
+        display: flex;
+        
+        
+    }
+    .see_allbutton{
+        position: relative;
+        
+        right: -35em;
+        
+        padding: 2em;
+        
+        
+    }
+    .see_allbutton button{
+        width: 8.5em;
+        height:2em ;
+        word-spacing: 0.3em;
+        background-color: white;
+        font-family: 'Alata', sans-serif;
+        padding: 0.09em 0.3em 0.3em 0.3em;
+    }
+    .see_allbutton2{
+        
+        
+        display: none;
+    }
+    .h1_info{
+        
+        font-size: x-large;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    
+    .photolayerone{
+        display: flex;
+        
+    }
+    .photo1{
+        background-image: url(./images/desktop/image-deep-earth.jpg);
+        width: 15em;
+        height: 25em;
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-right: 0.5em;
+        margin-bottom: 1em;
+        
+    }
+    .photo1 h1{
+        position: relative;
+        top: 13em;
+        right: -1em;
+    }
+    .photo2{
+        background-image: url(./images/desktop/image-night-arcade.jpg);
+        width: 15em;
+        height: 25em;
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-left: 2em;
+        margin-bottom: 1em;
+        
+    }
+    .photo2 h1{
+        position: relative;
+        top: 13em;
+        right: -1em;
+    }
+    .photo3{
+        background-image: url(./images/desktop/image-soccer-team.jpg);
+        width: 15em;
+        height: 25em;
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-left: 2.5em;
+        margin-bottom: 1em;
+    }
+    .photo3 h1{
+        position: relative;
+        top: 13em;
+        right: -1em;
+    }
+    .photo4{
+        background-image: url(./images/desktop/image-grid.jpg);
+        width: 15em;
+        height: 25em;
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-left: 2.5em;
+        
+        margin-bottom: 1em;
+    }
+    .photo4 h1{
+        position: relative;
+        top: 13em;
+        right: -1em;
+    }
+    .photolayertwo{
+        display: flex;
+        
+    }
+    
+    .photo5{
+        background-image: url(./images/desktop/image-from-above.jpg);
+        width: 15em;
+        height: 25em;
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-right: 0.5em;
+        margin-top: 1em;
+    }
+    .photo5 h1{
+        position: relative;
+        top: 13em;
+        right: -1em;
+    }
+    .photo6{
+        background-image: url(./images/desktop/image-pocket-borealis.jpg);
+        width: 15em;
+        height: 25em;
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-left: 2em;
+        margin-top: 1em;
+    }
+    .photo6 h1{
+        position: relative;
+        top: 13em;
+        right: -1em;
+    }
+    .photo7{
+        background-image: url(./images/desktop/image-curiosity.jpg);
+        width: 15em;
+        height: 25em;
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-left: 2.5em;
+        margin-top: 1em;
+    }
+    .photo7 h1{
+        position: relative;
+        top: 13em;
+        right: -1em;
+    }
+    .photo8{
+        background-image: url(./images/desktop/image-fisheye.jpg);
+        width: 15em;
+        height: 25em;
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-left: 2.5em;
+        margin-top: 1em;
+    }
+    .photo8 h1{
+        position: relative;
+        top: 13em;
+        right: -1em;
+    }
+    footer{
+        background-color: black;
+        color: white;
+        padding: 2em 10em 2em 10em;
+        margin-top: 5em;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fourthsection{
+        display: flex;
+    }
+    .firstpartfooter{
+        word-spacing: 2em;
+    
+    }
+    .firstpartfooter a{
+        text-decoration: none;
+        color: white;
+        
+        position: relative;
+        top: 1em;
+    }
+    .secondpartfooter{
+        position: relative;
+        right: -29em;
+        
+    }
+    .secondpartfooter p{
+        position: relative;
+        right: 14em;
+        
+    }
+    .footerlogos{
+        word-spacing:1em;
+    }
+    }

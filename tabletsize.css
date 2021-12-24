@@ -1,0 +1,477 @@
+@media  screen and (max-width: 919px) and (min-width: 420px) {
+    *{
+        width: auto;
+    }
+    
+      
+    body{
+        padding: 0;
+    margin: 0;
+    max-width: 919px;
+    min-width: 420px;
+    width: 100%;
+    
+    }
+
+    button:hover{
+        background-color: rgb(247,76,234);
+        color: rgb(247,76,234); 
+    }
+    a:hover{
+        background-color: rgb(247,76,234);
+        color: white;
+    }
+    
+    header{
+        background-image: url(./images/desktop/image-hero.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 55em;
+        
+        
+        
+    }
+    .firstsection{
+        
+        padding-top: 2em;
+        
+    }
+    .headerlogo img{
+        padding-top: 1em;
+
+    }
+    .headerlogo{
+        padding-left: 2.5em;
+    }
+    .headernavdetails a{
+        text-decoration: none;
+        color: white;
+        font-family: 'Alata', sans-serif;
+        display: none;
+    }
+    .hamburger_navdetails{
+        display: flex;
+        position: relative;
+        right: -28em;
+        word-spacing: 1.5em;
+    }
+    .logo_navdetails{
+        display: flex;
+        position: relative;
+        right: -1em;
+        
+    }
+    .hamburgerbutton button{
+        position: relative;
+        color: black;
+        background: transparent;
+        
+        border: none;
+       
+
+    }
+    .hamburgerbutton{
+        position: absolute;
+        right: 4em;
+    }
+    .dropbtn {
+        
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .dropbtn:hover, .dropbtn:focus {
+        background-color: #2980B9;
+      }
+      
+    .dropdown-content {
+        display: none;
+        right: -1em;
+        position: absolute;
+        background-color: black;
+        width: 14em;
+        overflow: hidden;
+        z-index: 1;
+        padding: 1em 6em 1em 4em;
+        /* background : transparent; */
+      }
+      
+    .dropdown-content a {
+        color: white;
+        line-height: 3em;
+        text-decoration: none;
+        display: block;
+        font-size: 15px;
+
+      }
+      .hamburgerbutton a:hover {background-color: #ddd;}
+
+      .show {display: block;}
+
+    .Headernote{
+        font-family: 'Josefin Sans', sans-serif;
+        position: relative;
+        text-align: left;
+        top: 3em;
+        font-size: 45px;
+        color: white;
+        border: 0.09em solid white;
+        height: 7em;
+        width: 72%;
+        margin-right: auto;
+        margin-left: auto;
+        font-weight: none;
+        line-height:1.6em;
+        word-spacing: 0.2em;
+        padding: 1em;
+    }
+    main{
+        margin-top: 9em;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .secondsection{
+        display: block;
+        position: relative;
+        padding: 1em;
+        width: auto;
+        
+    }
+    .vr_image{
+        
+        width: 95%;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+       
+
+    }
+    .vr_image img{
+        width: 100%;
+        
+    }
+    .vr_info{
+        z-index: 2;
+        margin-top: 4em;
+        position: relative;
+        background-color: white;
+        width: 80%;
+        
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .vr_info h1{
+        font-size: 60px;
+        text-align: center;
+        position: relative;
+        font-family: 'Josefin Sans', sans-serif;
+        width: auto;
+    }
+    .vr_info p{
+        position: relative;
+        line-height: 1.6;
+        font-family: 'Alata', sans-serif;
+        font-size: x-large;
+        width: auto;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        color: gray;
+    }
+    .thirdsection{
+        /* padding: 0em 1em 1em 10em; */
+        margin-top: 7em;
+        width: 100%;
+        
+    }
+    .h1_button{
+        display: block;
+    
+        
+    }
+    .see_allbutton{
+        position: relative;
+        display: none;
+        right: -35em;
+        
+        padding: 2em;
+        
+        
+    }
+    .see_allbutton button{
+        width: 8.5em;
+        height:2em ;
+        word-spacing: 0.3em;
+        background-color: white;
+        font-family: 'Alata', sans-serif;
+        padding: 0.09em 0.3em 0.3em 0.3em;
+    }
+    .h1_info{
+        text-align: center;
+        font-size: 35px;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-bottom: 3em;
+    }
+    .photos{
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        
+    }
+    .photos div{
+        margin-top: 2em;
+    }
+    
+    .photolayerone{
+        display: block;
+        
+    }
+    .photo1{
+        background-image: url(./images/mobile/image-deep-earth.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        width: 100%;
+        height: 10em;
+        text-align: center;
+        
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        position: relative;
+        
+        
+    }
+    .photo1 h1{
+        position: absolute;
+        top: 1.5em;
+        padding-left: 1em;
+        
+        font-size: 25px;
+        text-align: left;
+    }
+    .photo2{
+        background-image: url(./images/mobile/image-night-arcade.jpg);
+        background-size: cover;
+        
+        width: 100%;
+        height: 10em;
+
+        background-repeat: no-repeat;
+        
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        position: relative;
+        
+        
+    }
+    .photo2 h1{
+        position: absolute;
+        top: 1.5em;
+        padding-left: 1em;
+        
+        font-size: 25px;
+    }
+    .photo3{
+        background-image: url(./images/mobile/image-soccer-team.jpg);
+        background-size: cover;
+        
+        width: 100%;
+        height: 10em;
+        background-repeat: no-repeat;
+        
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        position: relative;
+        
+    }
+    .photo3 h1{
+        position: absolute;
+        top: 1.5em;
+        padding-left: 1em;
+        
+        font-size: 25px;
+    }
+    .photo4{
+        background-image: url(./images/mobile/image-grid.jpg);
+        background-size: cover;
+        
+        width: 100%;
+        height: 10em;
+        background-repeat: no-repeat;
+        
+        
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        position: relative;
+        
+    }
+    .photo4 h1{
+        position: absolute;
+        top: 1.5em;
+        padding-left: 1em;
+        
+        font-size: 25px;
+    }
+    .photolayertwo{
+        display: block;
+        
+    }
+    
+    .photo5{
+        background-image: url(./images/mobile/image-from-above.jpg);
+        background-size: cover;
+        
+        width: 100%;
+        height: 10em;
+        background-repeat: no-repeat;
+        
+        
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        position: relative;
+       
+    }
+    .photo5 h1{
+        position: absolute;
+        top: 1.5em;
+        padding-left: 1em;
+        
+        font-size: 25px;
+    }
+    .photo6{
+        background-image: url(./images/mobile/image-pocket-borealis.jpg);
+        background-size: cover;
+        
+        width: 100%;
+        height: 10em;
+        background-repeat: no-repeat;
+        
+        
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        position: relative;
+        
+    }
+    .photo6 h1{
+        position: absolute;
+        top: 1.5em;
+        padding-left: 1em;
+        
+        font-size: 25px;
+    }
+    .photo7{
+        background-image: url(./images/mobile/image-curiosity.jpg);
+        background-size: cover;
+        
+        width: 100%;
+        height: 10em;
+        background-repeat: no-repeat;
+        
+        
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        position: relative;
+       
+    }
+    .photo7 h1{
+        position: absolute;
+        top: 1.5em;
+        padding-left: 1em;
+        
+        font-size: 25px;
+    }
+    .photo8{
+        background-image: url(./images/mobile/image-fisheye.jpg);
+        background-size: cover;
+        
+        width: 100%;
+        height: 10em;
+        background-repeat: no-repeat;
+        
+        
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        position: relative;
+        
+    }
+    .photo8 h1{
+        position: absolute;
+        top: 1.5em;
+        padding-left: 1em;
+        
+        font-size: 25px;
+    }
+    .see_allbutton2{
+        margin-top: 2em;
+        text-align: center;
+        position: relative;
+        
+    }
+    .see_allbutton2 button{
+        height: 3em;
+        width: 11em;
+        background-color: white;
+        
+    }
+    .see_allbutton2 h1{
+        font-size: 15px;
+        letter-spacing: 1px;
+        font-family: 'Alata', sans-serif;
+        position: relative;
+        bottom: 0.5em;
+    }
+    footer{
+        background-color: black;
+        color: white;
+        margin-top: 9em;
+        max-width: 919px;
+        width: auto;
+        
+        height: 40em;
+    }
+    .fourthsection{
+        display: block;
+        position: relative;
+        top: 5em;
+    }
+    .firstpartfooter{
+        word-spacing: 2em;
+        text-align: center;
+    
+    }
+    .firstpartfooterlogo{
+        position: relative;
+        
+        text-align: center;
+    }
+    
+    .firstpartfooter a{
+        text-decoration: none;
+        color: white;
+        display: block;
+        position: relative;
+        top: 2em;
+        font-size: 25px;
+        line-height: 2em;
+    }
+    .secondpartfooter{
+        position: relative;
+        top: 8em;
+        text-align: center;
+        
+    }
+    .secondpartfooter p{
+        
+        position: relative;
+        font-size: 18px;
+        
+    }
+    .footerlogos{
+        word-spacing:1em;
+    }
+    
+    }

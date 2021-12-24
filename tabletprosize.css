@@ -1,0 +1,455 @@
+@media  screen and (max-width: 1024px) and (min-width: 920px) {
+    
+    button:hover{
+        background-color: rgb(247,76,234);
+        color: rgb(247,76,234); 
+    }
+    a:hover{
+        background-color: rgb(247,76,234);
+        color: white;
+    }
+    body{
+        width: 100%;
+    }
+    header{
+        background-image: url(./images/mobile/image-hero.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 110em;
+        width: 100%;
+        
+        
+    }
+    .firstsection{
+        padding-top: 3em;
+        
+    }
+    .headerlogo img{
+        height: 4em;
+
+    }
+    .headernavdetails a{
+        text-decoration: none;
+        color: white;
+        font-family: 'Alata', sans-serif;
+        display: none;
+    }
+    .hamburger_navdetails{
+        display: flex;
+        position: relative;
+        right: -28em;
+        word-spacing: 1.5em;
+    }
+    .logo_navdetails{
+        display: flex;
+        position: relative;
+        right: -3em;
+        top: 3em;
+    }
+    .hamburgerbutton button{
+        position: relative;
+        color: black;
+        background: transparent;
+        /* background-image: url(./images/mobile/image-hero.jpg); */
+        border: none;
+        /* right: -2.5em; */
+        right: 0;
+
+    }
+    .hamburgerbutton{
+        position: absolute;
+        right: 7em;
+        
+    }
+    .dropbtn {
+        background-color: #3498DB;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+      }
+      .dropbtn img{
+          height: 2.5em;
+          width: 3em;
+      }
+      
+      .dropbtn:hover, .dropbtn:focus {
+        background-color: #2980B9;
+      }
+      
+    .dropdown-content {
+        display: none;
+        right: -2em;
+        position: absolute;
+        background-color: black;
+        width: 50em;
+        overflow: hidden;
+        z-index: 1;
+        padding: 1em 6em 1em 4em;
+        
+      }
+      
+    .dropdown-content a {
+        color: white;
+        line-height: 3em;
+        text-decoration: none;
+        display: block;
+        font-size: 40px;
+
+      }
+      .hamburgerbutton a:hover {background-color: #ddd;}
+
+      .show {display: block;}
+
+    .Headernote{
+        font-family: 'Josefin Sans', sans-serif;
+        position: relative;
+        text-align: left;
+        top: 5em;
+        font-size: 70px;
+        color: white;
+        border: 0.09em solid white;
+        height: 7em;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        font-weight: none;
+        word-spacing: 0.2em;
+        padding-left: 1em;
+    }
+    main{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .secondsection{
+        display: block;
+        position: relative;
+        padding: 6em;
+    }
+    .vr_image{
+        z-index: 1;
+        width: 30em;
+    }
+    .vr_image img{
+        width: 51em;
+    }
+    .vr_info{
+        z-index: 2;
+        position: relative;
+        background-color: white;
+    }
+    .vr_info h1{
+        font-size: 77px;
+        text-align: center;
+        position: relative;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .vr_info p{
+        position: relative;
+        line-height: 1.6;
+        font-family: 'Alata', sans-serif;
+        font-size: xx-large;
+        width: 20em;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        color: gray;
+    }
+    .thirdsection{
+        /* padding: 0em 1em 1em 10em; */
+        
+        width: 100%;
+        
+    }
+    .h1_button{
+        display: block;
+    
+        
+    }
+    .see_allbutton{
+        position: relative;
+        display: none;
+        right: -35em;
+        
+        padding: 2em;
+        
+        
+    }
+    .see_allbutton button{
+        width: 8.5em;
+        height:2em ;
+        word-spacing: 0.3em;
+        background-color: white;
+        font-family: 'Alata', sans-serif;
+        padding: 0.09em 0.3em 0.3em 0.3em;
+    }
+    .h1_info{
+        text-align: center;
+        font-size: 50px;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-bottom: 3em;
+    }
+    .photos{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        
+    }
+    .photos div{
+        margin-top: 4em;
+    }
+    
+    .photolayerone{
+        display: block;
+        
+    }
+    .photo1{
+        background-image: url(./images/mobile/image-deep-earth.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        width: 100%;
+        height: 25em;
+        text-align: center;
+        
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        position: relative;
+        
+        
+    }
+    .photo1 h1{
+        position: absolute;
+        top: 4em;
+        padding-left: 1em;
+        
+        font-size: 55px;
+        text-align: left;
+    }
+    .photo2{
+        background-image: url(./images/mobile/image-night-arcade.jpg);
+        background-size: cover;
+        
+        width: 100%;
+        height: 25em;
+
+        background-repeat: no-repeat;
+        
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        position: relative;
+        
+        
+    }
+    .photo2 h1{
+        position: absolute;
+        top: 4em;
+        padding-left: 1em;
+        
+        font-size: 55px;
+    }
+    .photo3{
+        background-image: url(./images/mobile/image-soccer-team.jpg);
+        background-size: cover;
+        
+        width: 100%;
+        height: 25em;
+        background-repeat: no-repeat;
+        
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        position: relative;
+        
+    }
+    .photo3 h1{
+        position: absolute;
+        top: 4em;
+        padding-left: 1em;
+        
+        font-size: 55px;
+    }
+    .photo4{
+        background-image: url(./images/mobile/image-grid.jpg);
+        background-size: cover;
+        
+        width: 100%;
+        height: 25em;
+        background-repeat: no-repeat;
+        
+        
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        position: relative;
+        
+    }
+    .photo4 h1{
+        position: absolute;
+        top: 4em;
+        padding-left: 1em;
+        
+        font-size: 55px;
+    }
+    .photolayertwo{
+        display: block;
+        
+    }
+    
+    .photo5{
+        background-image: url(./images/mobile/image-from-above.jpg);
+        background-size: cover;
+        
+        width: 100%;
+        height: 25em;
+        background-repeat: no-repeat;
+        
+        
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        position: relative;
+       
+    }
+    .photo5 h1{
+        position: absolute;
+        top: 4em;
+        padding-left: 1em;
+        
+        font-size: 55px;
+    }
+    .photo6{
+        background-image: url(./images/mobile/image-pocket-borealis.jpg);
+        background-size: cover;
+        
+        width: 100%;
+        height: 25em;
+        background-repeat: no-repeat;
+        
+        
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        position: relative;
+        
+    }
+    .photo6 h1{
+        position: absolute;
+        top: 4em;
+        padding-left: 1em;
+        
+        font-size: 55px;
+    }
+    .photo7{
+        background-image: url(./images/mobile/image-curiosity.jpg);
+        background-size: cover;
+        
+        width: 100%;
+        height: 25em;
+        background-repeat: no-repeat;
+        
+        
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        position: relative;
+       
+    }
+    .photo7 h1{
+        position: absolute;
+        top: 4em;
+        padding-left: 1em;
+        
+        font-size: 55px;
+    }
+    .photo8{
+        background-image: url(./images/mobile/image-fisheye.jpg);
+        background-size: cover;
+        
+        width: 100%;
+        height: 25em;
+        background-repeat: no-repeat;
+        
+        
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        position: relative;
+        
+    }
+    .photo8 h1{
+        position: absolute;
+        top: 4em;
+        padding-left: 1em;
+        
+        font-size: 55px;
+    }
+    .see_allbutton2{
+        
+        text-align: center;
+        position: relative;
+        top: 5em;
+    }
+    .see_allbutton2 button{
+        height: 7em;
+        width: 28em;
+        background-color: white;
+        
+    }
+    .see_allbutton2 h1{
+        font-size: 30px;
+        letter-spacing: 2px;
+        font-family: 'Alata', sans-serif;
+    }
+    footer{
+        background-color: black;
+        color: white;
+        margin-top: 17em;
+        max-width: 1024px;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        height: 77em;
+    }
+    .fourthsection{
+        display: block;
+        position: relative;
+        top: 9em;
+    }
+    .firstpartfooter{
+        word-spacing: 2em;
+        text-align: center;
+    
+    }
+    .firstpartfooterlogo{
+        position: relative;
+        /* top: 8em; */
+        text-align: center;
+    }
+    .firstpartfooterlogo img{
+        height: 4em;
+    }
+    .firstpartfooter a{
+        text-decoration: none;
+        color: white;
+        display: block;
+        position: relative;
+        top: 2em;
+        font-size: 45px;
+        line-height: 2em;
+    }
+    .secondpartfooter{
+        position: relative;
+        top: 14em;
+        text-align: center;
+        
+    }
+    .secondpartfooter p{
+        top: 1em;
+        position: relative;
+        font-size: 40px;
+        
+    }
+    .footerlogos{
+        word-spacing:1em;
+    }
+    .footerlogos img{
+        height: 4em;
+    }
+    }
